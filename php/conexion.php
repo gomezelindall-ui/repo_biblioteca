@@ -5,9 +5,9 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Configuración de conexión
-$host = 'mysql-jairoapi.alwaysdata.net';
-$db = 'jairoapi_repobiblioteca';
-$user = 'jairoapi';
+$host = 'mysql-yeison.alwaysdata.net';
+$db = 'yeison_repo_biblioteca';
+$user = 'yeison';
 $password = 'clase1234';
 $charset = 'utf8mb4';
 
