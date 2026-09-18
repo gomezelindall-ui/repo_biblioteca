@@ -1,13 +1,13 @@
 :root {
-  --madera-oscura: #3d2817;
-  --madera-claro: #8b6f47;
-  --beige: #f5f1e8;
-  --crema: #fffbf0;
-  --dorado: #d4af37;
-  --cafe-oscuro: #5c4033;
-  --cafe-claro: #a0826d;
-  --verde-suave: #6b8e7f;
-  --hover: rgba(212, 175, 55, 0.2);
+  --madera-oscura: #123B5D;
+  --madera-claro: #2F6F9F;
+  --beige: #E8F1F8;
+  --crema: #FFF8D6;
+  --dorado: #F4C430;
+  --cafe-oscuro: #1E5A88;
+  --cafe-claro: #5B7890;
+  --verde-suave: #2E7D7A;
+  --hover: rgba(244, 196, 48, 0.20);
 }
 
 * {
@@ -90,7 +90,7 @@ body {
 }
 
 .nav-btn:hover {
-  background: #e8c547;
+  background: #FFD54F;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -105,7 +105,7 @@ body {
 /* HERO */
 .hero {
   background: linear-gradient(135deg, rgba(61, 40, 23, 0.8) 0%, rgba(92, 64, 51, 0.8) 100%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23f5f1e8" width="1200" height="300"/><rect x="100" y="80" width="60" height="120" fill="%238b6f47" opacity="0.3"/><rect x="200" y="60" width="50" height="140" fill="%238b6f47" opacity="0.25"/></svg>');
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23E8F1F8" width="1200" height="300"/><rect x="100" y="80" width="60" height="120" fill="%232F6F9F" opacity="0.3"/><rect x="200" y="60" width="50" height="140" fill="%232F6F9F" opacity="0.25"/></svg>');
   background-size: cover;
   color: var(--crema);
   padding: 3rem 2rem;
@@ -286,7 +286,7 @@ body {
 
 .tabla td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #e0d5c7;
+  border-bottom: 1px solid #C9D8E5;
 }
 
 .tabla tbody tr:hover {
@@ -298,8 +298,8 @@ body {
 }
 
 .estado-activo {
-  background: #d4edda;
-  color: #155724;
+  background: #DFF0D8;
+  color: #245C32;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -308,8 +308,8 @@ body {
 }
 
 .estado-devuelto {
-  background: #d1ecf1;
-  color: #0c5460;
+  background: #D7EEF5;
+  color: #185C68;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -378,7 +378,7 @@ body {
   color: var(--verde-suave);
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid #e0d5c7;
+  border-top: 1px solid #C9D8E5;
 }
 
 /* MODAL */
