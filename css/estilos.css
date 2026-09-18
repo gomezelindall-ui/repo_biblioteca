@@ -1,13 +1,13 @@
 :root {
-  --madera-oscura: #173d26;
-  --madera-claro: #478b64;
-  --beige: #f9edd2;
-  --crema: #fffbf0;
-  --dorado: #d4af37;
-  --cafe-oscuro: #335c49;
-  --cafe-claro: #6da091;
-  --verde-suave: #6b8e7f;
-  --hover: rgba(212, 175, 55, 0.2);
+  --madera-oscura: #3B2F63;
+  --madera-claro: #8B78C8;
+  --beige: #F3EEF8;
+  --crema: #FFFCFF;
+  --dorado: #C9A7E8;
+  --cafe-oscuro: #5A4778;
+  --cafe-claro: #9A88B8;
+  --verde-suave: #8E7AA8;
+  --hover: rgba(201, 167, 232, 0.2);
 }
 
 * {
@@ -90,7 +90,7 @@ body {
 }
 
 .nav-btn:hover {
-  background: #e8c547;
+  background: #D8BDF0;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -104,8 +104,8 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, rgba(61, 40, 23, 0.8) 0%, rgba(92, 64, 51, 0.8) 100%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23f5f1e8" width="1200" height="300"/><rect x="100" y="80" width="60" height="120" fill="%238b6f47" opacity="0.3"/><rect x="200" y="60" width="50" height="140" fill="%238b6f47" opacity="0.25"/></svg>');
+  background: linear-gradient(135deg, rgba(59, 47, 99, 0.8) 0%, rgba(90, 71, 120, 0.8) 100%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23F7F2FA" width="1200" height="300"/><rect x="100" y="80" width="60" height="120" fill="%237A6799" opacity="0.3"/><rect x="200" y="60" width="50" height="140" fill="%237A6799" opacity="0.25"/></svg>');
   background-size: cover;
   color: var(--crema);
   padding: 3rem 2rem;
@@ -286,7 +286,7 @@ body {
 
 .tabla td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #e0d5c7;
+  border-bottom: 1px solid #E1D8E8;
 }
 
 .tabla tbody tr:hover {
@@ -298,8 +298,8 @@ body {
 }
 
 .estado-activo {
-  background: #d4edda;
-  color: #155724;
+  background: #E2F1E8;
+  color: #285A3A;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -308,8 +308,8 @@ body {
 }
 
 .estado-devuelto {
-  background: #d1ecf1;
-  color: #0c5460;
+  background: #E1EEF5;
+  color: #315C70;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -378,7 +378,7 @@ body {
   color: var(--verde-suave);
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid #e0d5c7;
+  border-top: 1px solid #E1D8E8;
 }
 
 /* MODAL */
