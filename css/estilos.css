@@ -1,13 +1,13 @@
 :root {
-  --madera-oscura: #123B5D;
-  --madera-claro: #2F6F9F;
-  --beige: #E8F1F8;
-  --crema: #FFF8D6;
-  --dorado: #F4C430;
-  --cafe-oscuro: #1E5A88;
-  --cafe-claro: #5B7890;
-  --verde-suave: #2E7D7A;
-  --hover: rgba(244, 196, 48, 0.20);
+  --madera-oscura: #183A63;
+  --madera-claro: #2F6FA3;
+  --beige: #DCEAF3;
+  --crema: #FFF7C7;
+  --dorado: #F5C542;
+  --cafe-oscuro: #24527A;
+  --cafe-claro: #66859B;
+  --verde-suave: #4F806D;
+  --hover: rgba(245, 197, 66, 0.22);
 }
 
 * {
@@ -90,7 +90,7 @@ body {
 }
 
 .nav-btn:hover {
-  background: #FFD54F;
+  background: #FFD95A;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -104,8 +104,8 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, rgba(61, 40, 23, 0.8) 0%, rgba(92, 64, 51, 0.8) 100%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23E8F1F8" width="1200" height="300"/><rect x="100" y="80" width="60" height="120" fill="%232F6F9F" opacity="0.3"/><rect x="200" y="60" width="50" height="140" fill="%232F6F9F" opacity="0.25"/></svg>');
+  background: linear-gradient(135deg, rgba(24, 58, 99, 0.88) 0%, rgba(36, 82, 122, 0.84) 100%),
+    url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"%3E%3Crect fill="%23DCEAF3" width="1200" height="300"/%3E%3Cpath d="M0 125 C170 55 290 210 460 115 S780 70 1200 130" fill="none" stroke="%232F6FA3" stroke-width="24" opacity=".28"/%3E%3Cpath d="M0 150 C190 80 330 230 500 140 S820 95 1200 155" fill="none" stroke="%236B93B5" stroke-width="12" opacity=".24"/%3E%3Ccircle cx="1030" cy="72" r="31" fill="%23F5C542" opacity=".95"/%3E%3Ccircle cx="1030" cy="72" r="44" fill="none" stroke="%23FFD95A" stroke-width="8" opacity=".55"/%3E%3Cg fill="%23FFF7C7" opacity=".95"%3E%3Ccircle cx="145" cy="64" r="7"/%3E%3Ccircle cx="235" cy="115" r="5"/%3E%3Ccircle cx="355" cy="52" r="6"/%3E%3Ccircle cx="560" cy="92" r="6"/%3E%3Ccircle cx="725" cy="45" r="5"/%3E%3Ccircle cx="850" cy="105" r="7"/%3E%3C/g%3E%3Cpath d="M0 244 Q170 195 330 236 T670 230 T1000 220 T1200 235 L1200 300 L0 300 Z" fill="%23183A63" opacity=".25"/%3E%3C/svg%3E');
   background-size: cover;
   color: var(--crema);
   padding: 3rem 2rem;
@@ -286,7 +286,7 @@ body {
 
 .tabla td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #C9D8E5;
+  border-bottom: 1px solid #BFD1DF;
 }
 
 .tabla tbody tr:hover {
@@ -298,8 +298,8 @@ body {
 }
 
 .estado-activo {
-  background: #DFF0D8;
-  color: #245C32;
+  background: #DCEFD9;
+  color: #245B30;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -308,8 +308,8 @@ body {
 }
 
 .estado-devuelto {
-  background: #D7EEF5;
-  color: #185C68;
+  background: #D8EEF4;
+  color: #185A68;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-size: 0.85rem;
@@ -378,7 +378,7 @@ body {
   color: var(--verde-suave);
   margin-top: 0.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid #C9D8E5;
+  border-top: 1px solid #BFD1DF;
 }
 
 /* MODAL */
@@ -537,4 +537,59 @@ body {
   .libros-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
+}
+
+
+/* DECORACIÓN VAN GOGH — solo visual, sin cambiar la estructura HTML */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "✦   ✶   •   ✦";
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  color: var(--dorado);
+  font-size: 1.15rem;
+  letter-spacing: 12px;
+  opacity: 0.85;
+  pointer-events: none;
+  transform: rotate(-4deg);
+}
+
+.hero::after {
+  content: "〰〰〰";
+  position: absolute;
+  right: 24px;
+  bottom: 12px;
+  color: #8FB7D2;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  opacity: 0.55;
+  pointer-events: none;
+  transform: rotate(-8deg);
+}
+
+.navbar {
+  background-image:
+    radial-gradient(circle at 8% 35%, rgba(245,197,66,.42) 0 3px, transparent 4px),
+    radial-gradient(circle at 90% 30%, rgba(255,217,90,.34) 0 2px, transparent 3px),
+    linear-gradient(135deg, var(--madera-oscura) 0%, var(--cafe-oscuro) 100%);
+}
+
+.libro-portada {
+  background-image:
+    radial-gradient(circle at 24% 22%, rgba(255,217,90,.65) 0 4px, transparent 5px),
+    radial-gradient(circle at 76% 30%, rgba(245,197,66,.55) 0 7px, transparent 8px),
+    linear-gradient(135deg, var(--madera-claro) 0%, var(--cafe-oscuro) 100%);
+}
+
+.stat-card,
+.reporte-card,
+.libro-card,
+.tabla,
+.modal-contenido {
+  border-color: rgba(47,111,163,.20);
 }
