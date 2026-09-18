@@ -1,4 +1,4 @@
-name: 🚀 Tarea de Despliegue
+name: 🚀 Tarea de Despliegue Evelin 
 
 on:
    push:
@@ -17,9 +17,9 @@ jobs:
       - name: 📂 Sincronizando archivos via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-         server: ftp-jairoapi.alwaysdata.net # Change if using another host
-          username: jairoapi
-          password: clase1234
+          server: ftp-elindall.alwaysdata.net # Change if using another host
+          username: elindall
+          password: jhosep2020
           server-dir: www/ # Replace with your correct path
           protocol: ftps
           timeout: 86400000
