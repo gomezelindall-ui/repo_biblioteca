@@ -1,11 +1,11 @@
 :root {
-  --madera-oscura: #3d2817;
-  --madera-claro: #8b6f47;
-  --beige: #f5f1e8;
+  --madera-oscura: #173d26;
+  --madera-claro: #478b64;
+  --beige: #f9edd2;
   --crema: #fffbf0;
   --dorado: #d4af37;
-  --cafe-oscuro: #5c4033;
-  --cafe-claro: #a0826d;
+  --cafe-oscuro: #335c49;
+  --cafe-claro: #6da091;
   --verde-suave: #6b8e7f;
   --hover: rgba(212, 175, 55, 0.2);
 }
