@@ -3,7 +3,7 @@ name: 🚀 Tarea de Despliegue
 on:
    push:
      branches:
-       - main
+       - jairo
 
 jobs:
   deploy:
