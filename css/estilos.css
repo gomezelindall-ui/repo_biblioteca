@@ -381,6 +381,55 @@ body {
   border-top: 1px solid #E1D8E8;
 }
 
+
+/* IMÁGENES DIDÁCTICAS PARA LAS PORTADAS */
+.libro-portada {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  isolation: isolate;
+}
+
+/* Capa suave para conservar la legibilidad del texto */
+.libro-portada::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(59, 47, 99, 0.72), rgba(90, 71, 120, 0.45));
+  z-index: -1;
+}
+
+/* Portadas educativas */
+.libro-card:nth-child(1) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780439554930-L.jpg");
+}
+
+.libro-card:nth-child(2) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780142437332-L.jpg");
+}
+
+.libro-card:nth-child(3) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg");
+}
+
+.libro-card:nth-child(4) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg");
+}
+
+.libro-card:nth-child(5) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg");
+}
+
+.libro-card:nth-child(6) .libro-portada {
+  background-image: url("https://covers.openlibrary.org/b/isbn/9780262033848-L.jpg");
+}
+
+/* Si hay más libros, se mantiene la portada visual original */
+.libro-card:nth-child(n+7) .libro-portada {
+  background-image: linear-gradient(135deg, var(--madera-claro) 0%, var(--cafe-oscuro) 100%);
+}
+
 /* MODAL */
 .modal {
   position: fixed;
