@@ -3,7 +3,7 @@ name: 🚀 Tarea de Despliegue Evelin
 on:
    push:
      branches:
-       - main
+       - Evelin_Cardenas
 
 jobs:
   deploy:
