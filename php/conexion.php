@@ -6,7 +6,7 @@ header('Access-Control-Allow-Headers: Content-Type');
 
 // Configuración de conexión
 $host = 'mysql-yeison.alwaysdata.net';
-$db = 'yeison_repo_biblioteca';
+$db = 'yeison_repo_biblioteca.usuarios';
 $user = 'yeison';
 $password = 'clase1234';
 $charset = 'utf8mb4';
