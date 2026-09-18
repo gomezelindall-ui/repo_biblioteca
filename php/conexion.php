@@ -5,7 +5,7 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Configuración de conexión
-$host = 'ftp-elindall.alwaysdata.net';
+$host = 'mysql-elindall.alwaysdata.net';
 $db = 'elindall_biblioteca';
 $user = 'elindall';
 $password = 'jhosep2020';
